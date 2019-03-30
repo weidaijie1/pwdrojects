@@ -10,4 +10,5 @@ def redistest(request):
 	print('hahahah')
 	print(qqq)
 	print('我是ddb，这是我开发的项目')
+	print（ddb））
     return render(request,'redis.html',{'t':t})
