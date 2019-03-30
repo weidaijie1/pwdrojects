@@ -9,4 +9,5 @@ def redistest(request):
     t = datetime.datetime.now()
 	print('hahahah')
 	print(qqq)
+	print('我是ddb，这是我开发的项目')
     return render(request,'redis.html',{'t':t})
